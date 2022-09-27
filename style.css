@@ -1,0 +1,153 @@
+body{
+    background-image: url(./images/retro-living-room-interior-design.jpg);
+   /* width: auto;
+   height: auto; */
+   object-fit: cover;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+}
+.item{
+    display: inline-flex;
+}
+.items{
+    
+    list-style-type: none;
+    color:aliceblue;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.contact-info img{
+    width: 50px;
+
+}
+.contact-info{
+    padding-left: 60px;
+    display: flex;
+    color: aliceblue;
+}
+.navbar{
+    padding: 15px;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+.hero{
+    display: flex;
+}
+
+.left{
+    padding:20px 40px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 31px;
+    max-width: 635px;
+}
+.left button{
+
+    background-color: transparent;
+    border:2px solid white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.right{
+    position: relative;
+}
+
+.boxb {
+    background-color: #ffffff2d; 
+    position: absolute;
+    padding: 10px 20px;
+  }
+
+  .boxa {
+    background-color: #ffffff2d; 
+    position: absolute;
+    padding: 10px 20px;
+  }
+  .boxa {
+    width: 150px;
+    right: -531px;
+    top: -40px;
+}
+.imgss img{
+     width: 23px;
+
+ }
+ .rounded-bg{
+    background-color:aliceblue;
+    width:fit-content ;
+    padding:  5px 34px;
+    border-radius: 30px;
+ }
+ 
+  .boxb{
+    width: 150px;
+    left: -52px;
+    top: 303px;
+  }
+  .circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+  }
+  
+  .circle-1{
+    left: 392px;
+    top: 208px;
+  }
+  .circle-2{
+    left: 211px;
+    top: 377px;
+  }
+  .line{ 
+    width: 5em;
+    background-color: #ffffff;
+    position: absolute;
+  }
+  .line-1{
+    left: 359px;
+    top: 172px;
+    transform: rotate(90deg);
+  }
+  .line-2{
+    top: 376px;
+    left: 137px;
+  }
+  
+@media screen and (max-width:1200px) {
+.item{
+  display: none;
+}
+.boxa {
+  background-color: #ffffff2d; 
+  position: absolute;
+  padding: 10px 20px;
+}
+.boxa {
+  width: 150px;
+  left: 38px;
+  top: -25px;
+
+}
+.circle-1{
+  left: 305px;
+  top: 64px;
+}
+.line-1{
+ left : 228px;
+    top: 65px;
+    transform: rotate(180deg);
+}
+  
+}
+@media screen and (max-width:800px) {
+  .right{
+    display:none;
+  }
+}
