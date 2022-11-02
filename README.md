@@ -7,7 +7,7 @@
 
 
 # [GO LIVE](https://interior-design-d.netlify.app)
-![](Interior Design landing page.png)
+![image](Interior Design landing page.png)
 
 
 -   Skills Gained in this project
